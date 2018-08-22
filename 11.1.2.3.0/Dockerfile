@@ -49,7 +49,7 @@ ENV ORAREPO=${ORAREPO:-"docker.oradba.ch"} \
     PORT_REP=${PORT_REP:-8989} \
     PORT_ADMIN=${PORT_ADMIN:-4444} \
     FMW_OUD_PKG="ofm_oud_generic_11.1.2.3.0_disk1_1of1.zip" \
-    OUD_PATCH="p26540481_111230_Generic.zip"
+    OUD_PATCH="p27925359_111230_Generic.zip"
 
 # Use second ENV so that variable get substituted
 ENV ORACLE_BASE=${ORACLE_BASE:-$ORACLE_ROOT/app/oracle} \
